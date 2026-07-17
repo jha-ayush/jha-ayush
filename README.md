@@ -33,6 +33,8 @@ RANK = {"GO": 1, "CHECK": 2, "UNKNOWN": 2, "NO-GO": 3}
 
 Here's why that matters more than it sounds: a value that exists in the type can't be quietly dropped by code that forgot to handle it. Discipline doesn't survive a refactor. Types do.
 
+[The code is public.](https://github.com/jha-ayush/rededge-readiness)
+
 ---
 
 ## The same rule, different domain
@@ -72,7 +74,7 @@ The lesson is bigger than the bug: **an error value you can't tell apart from a 
 | | |
 |---|---|
 | **[UAS SkyCheck](https://uas-skycheck.app)** | FAA Part 107 preflight intelligence. Next.js 14 PWA, FastAPI, Supabase, Shapely/STRtree geometry over polygon-backed zones. Deterministic scoring, no model in the path between input and score. Built solo. [Architecture](https://github.com/jha-ayush/uas-skycheck-architecture) |
-| **RedEdge Readiness** | Zero-dependency field readiness checks for MicaSense RedEdge and Altum multispectral crews. Unconfirmed reads `CHECK`, lost link reads `NO-GO`, never a false pass. |
+| **[RedEdge Readiness](https://github.com/jha-ayush/rededge-readiness)** | Zero-dependency field readiness checks for MicaSense RedEdge and Altum multispectral crews. Unconfirmed reads `CHECK`, lost link reads `NO-GO`, never a false pass. Three clients, one evaluation contract, no hardware needed to test it. |
 | **Part 107 Exam Prep** | Standalone study app for the FAA Remote Pilot certificate. |
 
 Founder, SudoKodes LLC.
@@ -93,7 +95,7 @@ I'm working toward my own Part 107 certificate, because a tool that tells pilots
 <p align="center">
   <a href="https://uas-skycheck.app"><strong>UAS SkyCheck</strong></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://github.com/jha-ayush/uas-skycheck-architecture"><strong>Architecture</strong></a>
+  <a href="https://github.com/jha-ayush/rededge-readiness"><strong>RedEdge Readiness</strong></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/jhaayush"><strong>LinkedIn</strong></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
